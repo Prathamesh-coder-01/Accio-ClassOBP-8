@@ -1,0 +1,27 @@
+.box{
+    background-color: rgb(237, 131, 131);
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    .innerbox{
+        height: 200px;
+        width: 200px;
+        background-color: rgb(123, 123, 244);
+    }
+}
+
+@mixin active{
+    background-color: aquamarine;
+    color: black;
+
+}
+
+#text{
+    @include active;
+}
+
+
